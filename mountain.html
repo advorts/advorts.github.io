@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn { 
+    background-color: #111;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.indented {
+   padding-left: 350px;
+   padding-right: 300px; 
+   width:700px;
+}
+div.common {
+	border: 3px solid;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+div.text {
+	align:left;
+    margin: 20px 50px 150px 400px;
+    padding: 20px;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+</style>
+</head>
+<body background="bg2.jpg">
+ <div style="background-color:black;color:white;padding:20px;">
+  <h2> ADVORTS </h2> <sub> The Daring Ones </sub>
+ </div>
+<ul>
+  <li><a class="active" href="menu.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Sports</a>
+    <div class="dropdown-content">
+      <a href="mountain.html">Mountain Activities</a>
+      <a href="sea.html">Beach/Sea Activities</a>
+      <a href="aero.html">Aero Activities</a>
+      <a href="desert.html">Desert Activities</a>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="common">
+	<h3>Trekking</h3>
+	<img src="trek.jpg" style="width:400px;height:300px;border:3px solid;float:left;">
+	<div class="text">
+		<p>Trekking is a term commonly used for long-distance hiking, as well as trail riding , the bicycle , the canoe , touring etc with fixed accomodations like tents, partial infrastructre like roads or paths.
+		</p>
+		<p>It is done away from busy cities, that is, in places like some hill station where you can enjoy the nature to the fullest and the fresh breeze which is on the whole is a refreshing experience. 
+		</p>
+		<p>Some of the most popular destinations for trekking are Roopkund Trek in Uttarakhand, Chembra Peak Trek in Kerala, Araku Valley Trek in Andhra Pradesh, Valley of Flowers Trek in Uttarakhand, and many more.
+		</p>
+	</div>
+	<h3>Mountain Biking</h3>
+	<img src="mount-bike.jpg" style="width:400px;height:300px;border:3px solid;float:left;">
+	<div class="text">
+		<p>Mountain biking is an adventure sport that involves riding bicycles cross-country using specially designed mountain bikes. Mountain bikes share similarities with other bikes, but incorporate features designed to enhance durability and performance in rough terrain.
+		</p>
+		<p>
+		 For mountain biking, the Himalayan range and the mountainous regions of Kerala are the most sought after places. One can ride individually or in groups to rejuvenate their senses.
+		</p>
+	</div>
+	<h3>Skiing</h3>
+	<img src="skii.jpg" style="width:400px;height:300px;border:3px solid;float:left;">
+	<div class="text">
+		<p>Skiing is a mode of transport, recreational activity and competitive winter sport in which the participant uses skis to glide on snow. Originally intended as an aid to travel over snow, they are now mainly used recreationally in the sport of skiing.
+		</p>
+		<p>Skiing can be best experienced with the snow clad hills of the Himalayas. Gulmarg in Kashmir and Manali in Himachal Pradesh which offer stunning activity that takes place that will blow your mind.
+		</p>
+	</div>
+</div>
+<footer>
+  <p>Copyright &copy; AdventureSports.com</p>
+</footer>
+</body>
+</html>

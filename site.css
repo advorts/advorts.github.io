@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn { 
+    background-color: #111;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.indented {
+   display: block;
+   text-align: center; 
+   width: screen-width;
+}
+.main-image{
+	position:relative;
+	height:350px;
+	width:740.79px;
+	overflow:hidden;
+	margin: auto;
+	border:10px solid;
+}
+
+.main-image img{
+	position:absolute;
+	height:350px;
+	top:0px;
+	left:-100%;
+	animation-name: traineffect;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes traineffect{
+	0% {left:-100%;}
+	100% {left:0%;}
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
